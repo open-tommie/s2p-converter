@@ -3,7 +3,7 @@
 ## summary(JPN:概要)
 
 
- JPN:NanoVNAで作成した順方向s2pフィアル（S11,S21のみ）逆方向s2pファイル(S11,S21のみ）を入力して、S11,S21,S12,S22がそろったs2pファイルを出力します。
+ JPN:NanoVNAで作成した順方向s2pファイル（S11,S21のみ）と、逆方向s2pファイル(S11,S21のみ）を入力して、S11,S12,S21,S22がそろったs2pファイルを出力します。
 
 
 ## usage (JPN:使い方）
@@ -26,3 +26,5 @@ On Linux Shell,
 ---|---|
 |OS| 20.04.1 LTS (Focal Fossa)|
 |Language|Python 3.8.5|
+|NanoVNA| NanoVNA V2_2 SAA2 git-20201122|
+|NanoVNA Saver|NanoVNASaver version 0.3.8|
