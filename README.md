@@ -1,5 +1,11 @@
 # s2p-converter
 
+## summary(JPN:概要)
+
+
+ JPN:NanoVNAで作成した順方向s2pフィアル（S11,S21のみ）逆方向s2pファイル(S11,S21のみ）を入力して、S11,S21,S12,S22がそろったs2pファイルを出力します。
+
+
 ## usage (JPN:使い方）
 
 On Linux Shell,
