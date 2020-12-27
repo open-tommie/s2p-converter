@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*
 # 
-# S11, S21, S21, S22を含んだs2pファイルを作成する
+# S11, S12, S21, S22を含んだs2pファイルを作成する
 # 2020 @tommie_nico
 #
-# ./convert.py file1.s2p file2.s2p
+# Usage:
+#
+# python3 convert.py file1.s2p file2.s2p >file2.s2p
+#
+# or
+#
+# ./convert.py file1.s2p file2.s2p >file2.s2p
 #
 import sys
+if len(sys.argv) != 3:
+	print( "usage: python3 convert.py file1.s2p file2.s2p >file2.s2p")
+	sys.exit()
+
 ld1 = open(sys.argv[1])
 ld2 = open(sys.argv[2])
 
