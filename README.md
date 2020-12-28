@@ -24,7 +24,7 @@ On Linux Shell,
 
 |Environment|Version|
 ---|---|
-|OS| 20.04.1 LTS (Focal Fossa)|
+|OS| Ubuntu 20.04.1 LTS (Focal Fossa)|
 |Language|Python 3.8.5|
 |NanoVNA| NanoVNA V2_2 SAA2 git-20201122|
 |NanoVNA Saver|NanoVNASaver version 0.3.8|
